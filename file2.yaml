@@ -1,7 +1,0 @@
-kind: Replicator
-apiVersion: example.com/v1
-metadata:
-  name: blah
-count: 3
-selector:
-  foo: barz
