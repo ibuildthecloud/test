@@ -1,0 +1,16 @@
+apiVersion: example.com/v1
+kind: Replicated
+metadata:
+  creationTimestamp: null
+  generateName: blah-
+  generation: 1
+  labels:
+    foo: barz
+  name: blah-r7gx
+  ownerReferences:
+  - apiVersion: example.com/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Replicator
+    name: blah
+    uid: 827a9644-113d-490c-b533-6a9d52ccfd37
