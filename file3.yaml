@@ -1,0 +1,7 @@
+kind: Replicator
+apiVersion: example.com/v1
+metadata:
+  name: asdf
+count: 5
+selector:
+  foo: bar
