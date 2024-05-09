@@ -1,0 +1,4 @@
+chat: true
+context: foo.txt
+
+Say hi
